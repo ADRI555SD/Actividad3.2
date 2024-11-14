@@ -27,11 +27,11 @@ public class EjercicioGit3pt2 {
 		
 	}
 	
-	public static double sumar(double a, double b) {
+	public static double sumar(double a, double b) { // Equación suma
 		return a + b;
 	}
 		
-	public static double restar(double a, double b) {
+	public static double restar(double a, double b) { // Equación resta
 		return a - b;
 	}
 		
