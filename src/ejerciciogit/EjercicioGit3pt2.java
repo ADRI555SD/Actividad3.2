@@ -34,7 +34,7 @@ public class EjercicioGit3pt2 {
 	public static double restar(double a, double b) { // Equación resta
 		return a - b;
 	}
-		
+		// Este comentario se ha hecho desde GitHub
 
 
 }
