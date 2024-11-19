@@ -1,11 +1,23 @@
 package ejerciciogit;
 
 import java.util.Scanner;
-
+/**
+ * Realiza una suma y una resta entre dos numeros.
+ * Los numeros son introducidos por un usuario.
+ * 
+ * @author Adrià Rocha Coll
+ * @version 1.2
+ */
 public class EjercicioGit3pt2 {
 	
 	public static void main(String[] args) {
-
+		/**
+		 * El ordenador pide al usuario que introduzca dos numeros de su interes
+		 * Los numeros introduzidos por el usuario son almazenados dentro de los parametrod "numero1" y "numero2"
+		 * 
+		 * @parametro a el primer numero
+		 * @parametro b el segundo numero
+		 */
 		Scanner scanner = new Scanner (System.in);
 		
 		System.out.println("Calculadora Simple:"); // Nombre
@@ -26,7 +38,9 @@ public class EjercicioGit3pt2 {
 		scanner.close();
 		
 	}
-	
+	/**
+	 * @return la suma de <code>a</code> y <code>b</code>
+	 */
 	public static double sumar(double a, double b) { // Equación suma
 		return a + b;
 	}
